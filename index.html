@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APIs</title>
+    <style>
+      .container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .card {
+        width: 300px;
+        height: 400px;
+        background-color: #dadada;
+        border-radius: 5px;
+      }
+      .image {
+        width: 100%;
+        height: 80%;
+      }
+      .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px 5px 0 0;
+      }
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 30px;
+      }
+      .userName {
+        text-align: center;
+        margin-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      @media only screen and (max-width: 600px) {
+        .container {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Github Users</h1>
+    <div class="container"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
